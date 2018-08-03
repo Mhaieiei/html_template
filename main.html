@@ -21,91 +21,108 @@
     <!-- Slidebar -->
 
     <div class="sidenav">
-        <h2 style="font-weight: bold;"> CREATIVE TIM </h2>
-        <a href="#about"><i class="fas fa-table" style="margin-right: 8px;"></i>Dashboard</a>
-        <a href="#services"><i class="fas fa-user" style="margin-right: 8px;"></i>User Profile</a>
-        <a href="#clients"><i class="far fa-clipboard" style="margin-right: 8px;"></i>Table List</a>
-        <a href="#contact"><i class="fas fa-sticky-note" style="margin-right: 8px;"></i>Typography</a>
-        <a href="#contact"><i class="fas fa-circle"  style="margin-right: 8px;"></i></i>icons</a>
-        <a href="#contact"><i class="fas fa-map-marker-alt" style="margin-right: 8px;"></i>Maps</a>
-        <a href="#contact"><i class="fas fa-bell" style="margin-right: 8px;"></i>Notifications</a>
-      </div>
+      <h2 class="sidenav-title"> CREATIVE TIM </h2>
+      <a href="#">
+        <i class="fas fa-table" ></i>
+        <font>Dashboard</font>
+      </a>
+      <a href="#">
+        <i class="fas fa-user"></i>
+        <font>User Profile</font>
+      </a>
+      <a href="#">
+        <i class="far fa-clipboard"></i>
+        <font>Table List</font>
+      </a>
+      <a href="#">
+        <i class="fas fa-sticky-note"></i>
+        <font>Typography</font>
+      </a>
+      <a href="#">
+        <i class="fas fa-circle" ></i></i>
+        <font>icons</font>
+      </a>
+      <a href="#">
+        <i class="fas fa-map-marker-alt"></i>
+        <font>Maps</font>
+      </a>
+      <a href="#">
+        <i class="fas fa-bell"></i>
+        <font>Notifications</font>
+      </a>
+      <a href="#" class="last_icon">
+        <i class="fas fa-cloud-upload-alt"></i>
+        <font>Upgrade to PRO</font>
+      </a>
+    </div>
+    
       
-      <div class="main">
-        <div class="main_header">
-            <a href="#"><div class="heading-button-host ">
-                <img style="width: 30px; height: 20px; margin-left: 3px; margin-right: 3px;"src="./assets/nha-homes.png" alt="host">
-                <p>Become a Host ></p> 
-            </div>
-          </a>
-          <div class="text-box">
-              
-              <h1 class="heading-primary">
-                  <span class="heading-primary-main">Welcome to agoda</span>
-                  <span class="heading-primary-sub">the effortless engine for Hotels and Accomodations</span>
-              </h1>
-              <div class="search">
-                <input type="text" class="searchTerm" placeholder="&#xf002;">
-                <button type="submit" class="searchButton">
-                  Search
-                </button>
-              </div>
-              <div>
-                  <span class="heading-primary-sub-search"> traveling search Tokyo,Hong Kong, New York</span>
-              </div>
-              
-          </div>
-         
-        </div>
-        <div class="container-box">
-            <div class="box" >
-                <div class="container-right-box">Public</div>
-                <img src="./assets/person.png" alt="person">
-                <p style="font-size: 12px;">Kiev, Ukarine</p>
-                <p style="font-size: 15px;">
-                  Michel Rodriguze
-                </p>
-                <p style="padding: 10px; font-size: 12px; text-align: center;">
-                    I'm #founder and #designer at cardcase connect me on linkedin ice-cream lover and dog also
-                  </p>
-                <div class="container-button">
-                    <button>Call</button>
-                    <button>Linked In</button>
-                </div>
-            </div>
-            <div class="box" >
-                <div class="container-right-box">Public</div>
-                <img src="./assets/person.png" alt="person">
-                <p style="font-size: 12px;">Kiev, Ukarine</p>
-                <p style="font-size: 15px;">
-                  Michel Rodriguze
-                </p>
-                <p style="padding: 10px; font-size: 12px; text-align: center;">
-                    I'm #founder and #designer at cardcase connect me on linkedin ice-cream lover and dog also
-                  </p>
-                <div class="container-button">
-                    <button>Call</button>
-                    <button>Linked In</button>
-                </div>
-            </div>
-            <div class="box" >
-                <div class="container-right-box">Public</div>
-                <img src="./assets/person.png" alt="person">
-                <p style="font-size: 12px;">Kiev, Ukarine</p>
-                <p style="font-size: 15px;">
-                  Michel Rodriguze
-                </p>
-                <p style="padding: 10px; font-size: 12px; text-align: center;">
-                    I'm #founder and #designer at cardcase connect me on linkedin ice-cream lover and dog also
-                  </p>
-                <div class="container-button">
-                    <button>Call</button>
-                    <button>Linked In</button>
-                </div>
-            </div>
-          </div>
+    <div class="container_header">
+      <a href="#" class="heading-button-host ">
+        <img style="width: 30px; height: 20px; margin-left: 3px; margin-right: 3px;"
+              src="./assets/nha-homes.png"
+              alt="home">
+        <p>Become a Host ></p> 
+      </a>
+      <div class="heading-text-box">
+        <p class="heading-primary-main">Welcome to agoda</p>
+        <p class="heading-primary-sub">the effortless engine for Hotels and Accomodations</p>
+        <i class="fas fa-search search_icon"></i>
+        <input type="text" class="searchTerm">
+        <button type="submit" class="searchButton">
+          Search
+        </button>
+        <p class="heading-primary-sub-search">traveling search Tokyo,Hong Kong, New York</p>
       </div>
-
+    </div>
+    <div class="container-box">
+      <div>
+        <span class="container-right-box">Public</span>
+        <img src="./assets/person.png" alt="person">
+        <p class="container-text-main">Kiev, Ukarine</p>
+        <p class="container-text-name">
+          Michel Rodriguze
+        </p>
+        <p class="container-text-detail">
+          I'm <font color="white">#founder</font> and <font color="white">#designer</font> at cardcase connect me on linkedin ice-cream lover and dog also
+        </p>
+        <span class="container-button">
+          <button>Call</button>
+          <button>Linked In</button>
+        </span>
+      </div>
+      <div style="color:rgb(88, 86, 86); background: linear-gradient(to bottom, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);">
+        <span class="container-right-box" style="color: black;" >Public</span>
+        <img src="./assets/person.png" alt="person">
+        <p class="container-text-main" >Kiev, Ukarine</p>
+        <p class="container-text-name" style="color: rgb(0, 0, 0);">
+          Michel Rodriguze
+        </p>
+        <p class="container-text-detail">
+          I'm <font color="black">#founder</font> and <font color="black">#designer</font> at cardcase connect me on linkedin ice-cream lover and dog also
+        </p>
+        <span class="container-button">
+          <button>Call</button>
+          <button>Linked In</button>
+        </span>
+      </div>
+      <div style="color: white;background: linear-gradient(to bottom, rgba(64,64,64,1) 0%, rgba(15,15,15,1) 100%);">
+        <span class="container-right-box">Personal</span>
+        <img src="./assets/person.png" alt="person">
+        <p class="container-text-main" >Kiev, Ukarine</p>
+        <p class="container-text-name">
+          Michel Rodriguze
+        </p>
+        <p class="container-text-detail">
+          #founder #designer #developer #cocoa #c++ #Objective-C #java #javascript #test
+        </p>
+        <span class="container-button">
+          <button>Call</button>
+          <button>Linked In</button>
+        </span>
+      </div>
+    </div>
+    
 
 
     <!--end your code here -->
